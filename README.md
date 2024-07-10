@@ -6,7 +6,7 @@ Ovo je modifikovana verzija projekta WhisperDesktop, prevedena i prilagođena za
 
 Projekat WhisperDesktop je namijenjen za prepoznavanje govora i pretvaranje istog u tekst. Ova verzija je prevedena na bosanski jezik i prilagođena za lakše korištenje od strane novinara.
 
-## Upustvo za Korišćenje
+## Upustvo za kompajliranje
 
 1. Učitajte `WhisperProj.sln` u Visual Studio 2022.
 2. Na solution-u u "Configuration Manager" promenite "Active solution configuration" na "Release" (obavezno).
@@ -17,9 +17,12 @@ Potrebni fajlovi za rad su:
 - `Whisper.dll`
 - `WhisperDesktop.exe`
 
+Ili mozete preuzeti [zip](https://github.com/mirsadf/WhisperProj/releases/download/v1.0.0/WhisperDesktop.zip) sa kompajliranim fajlovima.
+
 ### Preuzimanje Modela
 
-Potrebno je preuzeti model sa sledećeg linka: [ggml-large-v2.bin](https://huggingface.co/ggerganov/whisper.cpp/blob/main/ggml-large-v2.bin). Ovaj fajl sadrži pretrenirani model koji se koristi za prepoznavanje govora.
+Potrebno je preuzeti model V2 sa sledećeg linka: [ggml-large-v2.bin](https://huggingface.co/ggerganov/whisper.cpp/blob/main/ggml-large-v2.bin). Ovaj fajl sadrži pretrenirani model koji se koristi za prepoznavanje govora.
+Model V3 nije kompatibilan sa ovom verzijom WhisperDesktop.
 
 ## Informacije o Autoru
 
